@@ -22,6 +22,7 @@ if ONYX_LIB_PATH.is_file():
 # Strictly enforce 100% offline operation
 os.environ["HF_HUB_OFFLINE"] = "1"
 os.environ["TRANSFORMERS_OFFLINE"] = "1"
+os.environ["CACTUS_TELEMETRY"] = "0"
 
 try:
     import cactus as _backend

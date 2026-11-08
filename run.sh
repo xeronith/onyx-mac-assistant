@@ -8,6 +8,7 @@ cd "$SCRIPT_DIR"
 # Enforce 100% offline air-gapped environment
 export HF_HUB_OFFLINE=1
 export TRANSFORMERS_OFFLINE=1
+export CACTUS_TELEMETRY=0
 
 # Onyx Model & Engine Paths
 export ONYX_MODEL_PATH="${ONYX_MODEL_PATH:-$SCRIPT_DIR/models/onyx-core.bin}"

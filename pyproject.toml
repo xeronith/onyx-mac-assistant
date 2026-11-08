@@ -13,7 +13,7 @@ authors = [
     { name = "Xeronith" }
 ]
 dependencies = [
-    "cactus-compute>=4.0.0"
+    "cactus-compute==4.0.2"
 ]
 
 [project.scripts]
